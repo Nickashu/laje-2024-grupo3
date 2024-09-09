@@ -29,8 +29,8 @@ public class GemDetection : MonoBehaviour
             }
         }
 
-
-        gemDetector.setAlpha(distanceToNearest);
+        Vector3 collider = new Vector3(nearestObject.transform.position.x + 1f, nearestObject.transform.localPosition.y);
+        gemDetector.setAlpha(Vector3.Distance(transform.position, collider));
         
     }
 }
