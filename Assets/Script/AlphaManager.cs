@@ -12,18 +12,14 @@ public class AlphaManager : MonoBehaviour
     {
 
         if (proximity > 10)
-        {
-            alpha = 0f;
-        }
+            alpha = 0.05f;
         else
-        {
-            alpha = (10 - proximity) / 10;
-        }
-
-        if (gemActive == false)
-        {
+            alpha = 0.05f + (10 - proximity)*0.05f;
+        if (proximity < 1)
             alpha = 1f;
-        }
+
+            if (!gemActive)
+            alpha = 1f;
 
         image.color = new Color(image.color.r, image.color.g, image.color.b, alpha);
     }
