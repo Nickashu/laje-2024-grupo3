@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7cafa13fb39f1f842aea3454a7012ca4
+guid: 2994f961847ecf14bbeecd29e9ff0838
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -95,7 +95,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "an\xE3o side direita_0"
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 6
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b8cf43d0a3eb14285bc95dabc1eb69
+      internalID: 2072960508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "an\xE3o side direita_1"
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 6
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6ae1e2b5da80042acdb0bde26470d7
+      internalID: 1120875426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "an\xE3o side direita_2"
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 6
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2558d00b7c67eef41bd78d6ccb8074dc
+      internalID: -2057441692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "an\xE3o side direita_3"
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 6
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7658e952d1674b844ba8a080ed8ca86d
+      internalID: 1929522124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +190,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "an\xE3o side direita_0": 2072960508
+      "an\xE3o side direita_1": 1120875426
+      "an\xE3o side direita_2": -2057441692
+      "an\xE3o side direita_3": 1929522124
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
