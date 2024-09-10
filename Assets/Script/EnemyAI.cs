@@ -6,6 +6,7 @@ public class EnemyAI : MonoBehaviour
 {
     public float speed;
     public GameObject player;
+    public UseLantern lantern;
     public bool standBy = false;
 
 
@@ -14,21 +15,7 @@ public class EnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if (Vector2.Distance(transform.position,player.transform.position) <= 5.12 && !standBy)
-        {
-            Vector2 pointToFollow = player.transform.position;
-
-            Vector2 rayCastDirection = player.transform.position - transform.position;
-            rayCastDirection.Normalize();
-            RaycastHit2D lineOfSite = Physics2D.Raycast(transform.position, rayCastDirection, 5.12f);
-
-            if (!lineOfSite.transform.CompareTag("Player"))
-                 pointToFollow = FindPath(pointToFollow);
-
-            transform.position = Vector2.MoveTowards(transform.position, pointToFollow, speed * Time.deltaTime);
-
-        }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -88,4 +75,23 @@ public class EnemyAI : MonoBehaviour
     {
         standBy = false;
     }
+
+    public void PursuitPlayer()
+    {
+        if (!standBy)
+        {
+            Vector2 pointToFollow = player.transform.position;
+
+            Vector2 rayCastDirection = player.transform.position - transform.position;
+            rayCastDirection.Normalize();
+            RaycastHit2D lineOfSite = Physics2D.Raycast(transform.position, rayCastDirection, Vector2.Distance(transform.position, player.transform.position));
+
+            if (!lineOfSite.transform.CompareTag("Player"))
+                pointToFollow = FindPath(pointToFollow);
+
+            transform.position = Vector2.MoveTowards(transform.position, pointToFollow, speed * Time.deltaTime);
+
+        }
+    }
+
 }

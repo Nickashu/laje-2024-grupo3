@@ -7,7 +7,7 @@ public class UseLantern : MonoBehaviour
 {
     public Light2D playerLight;
     public bool isLanternActive;
-    private bool inUse = false;
+    public bool inUse = false;
     private bool inCoolDown = false;
 
     // Start is called before the first frame update

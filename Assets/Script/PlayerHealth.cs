@@ -33,7 +33,7 @@ public class PlayerHealth : MonoBehaviour
             if (!hit)
             {
                 hit = true;
-                playerMovement.velocity = 2;
+                playerMovement.velocity = 2.5f;
                 StartCoroutine(FlickerLight());
                 Invoke("RestoreHealth", 3);
 
