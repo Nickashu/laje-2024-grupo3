@@ -6,18 +6,22 @@ using UnityEngine.UI;
 public class AlphaManager : MonoBehaviour
 {
     public Image image;
-
+    public bool gemActive;
+    private float alpha = 0f;
     public void setAlpha(float proximity)
     {
+
         if (proximity > 10)
-        {
-            image.color = new Color(image.color.r, image.color.g, image.color.b, 0f);
-        }
+            alpha = 0.05f;
         else
-        {
-            float alpha = (10 - proximity)/10;
-            image.color = new Color(image.color.r, image.color.g, image.color.b, alpha);
-        }
+            alpha = 0.05f + (10 - proximity)*0.05f;
+        if (proximity < 0.5)
+            alpha = 1f;
+
+        if (!gemActive)
+            alpha = 1f;
+
+        image.color = new Color(image.color.r, image.color.g, image.color.b, alpha);
     }
 
 }

@@ -22,15 +22,15 @@ public class GemDetection : MonoBehaviour
         for (int i = 1; i < allObjectWithTag.Length; i++)
         {
             float distanceToCurrent = Vector3.Distance(transform.position, allObjectWithTag[i].transform.position);
-            if (distanceToNearest<distanceToCurrent)
+            if (distanceToNearest>distanceToCurrent)
             {
                 nearestObject = allObjectWithTag[i];
                 distanceToNearest = distanceToCurrent;
             }
         }
 
-
-        gemDetector.setAlpha(distanceToNearest);
+        Vector3 collider = new Vector3(nearestObject.transform.position.x + 1f, nearestObject.transform.localPosition.y);
+        gemDetector.setAlpha(Vector3.Distance(transform.position, collider));
         
     }
 }
