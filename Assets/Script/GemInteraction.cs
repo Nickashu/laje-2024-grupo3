@@ -14,6 +14,7 @@ public class GemInteraction : MonoBehaviour
     public SpriteRenderer gemSprite;
     public Sprite burried;
     public Sprite unburried;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,8 @@ public class GemInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        animator.SetBool("isMining", isMining);
         if (isInRange && Input.GetKey(KeyCode.E))
         {
             isMining = true;

@@ -11,19 +11,21 @@ public class PlayerHealth : MonoBehaviour
     public PlayerMovement playerMovement;
     public Rigidbody2D rb2D;
     public Light2D playerView;
+    public Canvas CanvaUI;
+    public Canvas CanvaMorte;
 
     public UnityEvent OnBegin, OnEnd;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        CanvaMorte.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -40,7 +42,8 @@ public class PlayerHealth : MonoBehaviour
             }
             else
             {
-                Debug.Log("Game Over");
+                CanvaUI.enabled = false;
+                CanvaMorte.enabled = true;
             }
         }
     }
@@ -56,7 +59,6 @@ public class PlayerHealth : MonoBehaviour
             playerView.enabled=true;
     }
 
- 
 
     void RestoreHealth()
     {

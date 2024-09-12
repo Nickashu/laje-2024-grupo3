@@ -19,7 +19,7 @@ public class UseLantern : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && isLanternActive && !inUse && !inCoolDown)
+        if (Input.GetKeyDown(KeyCode.Space) && isLanternActive && !inUse && !inCoolDown)
         {
             inUse = true;
             playerLight.pointLightOuterRadius = 7.5f;

@@ -24,7 +24,7 @@ public class ItemSelection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             gemDetector.gemActive = !gemDetector.gemActive;
             lantern.isLanternActive = ! lantern.isLanternActive;

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
@@ -15,8 +16,32 @@ public class EnemyAI : MonoBehaviour
 
     private void FixedUpdate()
     {
-        animator.SetFloat("Horizontal", 1f - (1f / xMovement));
-        animator.SetFloat("Vertical", (1f / yMovement));
+        if (xMovement > 0)
+        {
+            animator.SetFloat("Horizontal", xMovement - Mathf.Floor(xMovement));
+        }
+        else if (xMovement < 0)
+        {
+            animator.SetFloat("Horizontal", xMovement - Mathf.Ceil(xMovement));
+        }
+        else
+        {
+            animator.SetFloat("Horizontal", 0);
+        }
+
+        if (yMovement > 0)
+        {
+            animator.SetFloat("Vertical", yMovement - Mathf.Floor(yMovement));
+        }
+        if (yMovement < 0)
+        {
+            animator.SetFloat("Vertical", yMovement - Mathf.Ceil(yMovement));
+        }
+        else
+        {
+            animator.SetFloat("Vertical", 0);
+        }
+
         animator.SetBool("inMovement", !standBy);
     }
 
@@ -85,16 +110,15 @@ public class EnemyAI : MonoBehaviour
         {
             Vector2 pointToFollow = player.transform.position;
 
-            xMovement = (new Vector3(pointToFollow.x,pointToFollow.y) - transform.position).x;
-            yMovement = (new Vector3(pointToFollow.x, pointToFollow.y) - transform.position).y;
-
-
             Vector2 rayCastDirection = player.transform.position - transform.position;
             rayCastDirection.Normalize();
             RaycastHit2D lineOfSite = Physics2D.Raycast(transform.position, rayCastDirection, Vector2.Distance(transform.position, player.transform.position));
 
             if (!lineOfSite.transform.CompareTag("Player"))
                 pointToFollow = FindPath(pointToFollow);
+
+            xMovement = pointToFollow.x - transform.position.x;
+            yMovement = pointToFollow.y - transform.position.y;
 
             transform.position = Vector2.MoveTowards(transform.position, pointToFollow, speed * Time.deltaTime);
 
