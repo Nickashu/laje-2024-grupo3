@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b0f720ed27e996b44bf58e95b2d8d802
+guid: da8347b173bd12e419b99d4e4cc5bbf0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: inimigo side esquerda-Sheet_0
+      name: inimigo costas_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 9
-        width: 27
-        height: 51
+        x: 15
+        y: 8
+        width: 33
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73d2d19e72edcef42b8e1f8a2fc0799b
-      internalID: -1665659260
+      spriteID: fcbeb73e54afcce46b19a38c7cea922c
+      internalID: 1616127775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo side esquerda-Sheet_1
+      name: inimigo costas_1
       rect:
         serializedVersion: 2
-        x: 82
+        x: 79
         y: 9
-        width: 26
-        height: 51
+        width: 34
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 898d7cbbcdfb11d469e5da6726e18f54
-      internalID: 5673208
+      spriteID: c94280d8c3649874dbbf05d8704b5f6d
+      internalID: -248898610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo side esquerda-Sheet_2
+      name: inimigo costas_2
       rect:
         serializedVersion: 2
-        x: 145
-        y: 9
-        width: 27
-        height: 51
+        x: 144
+        y: 8
+        width: 33
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d5bd0c2c2217ea439c3b685db3e077a
-      internalID: 866132833
+      spriteID: 1192692f973a9c643b96347efda578e5
+      internalID: 1182092132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo side esquerda-Sheet_3
+      name: inimigo costas_3
       rect:
         serializedVersion: 2
-        x: 211
+        x: 207
         y: 9
-        width: 25
-        height: 52
+        width: 34
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b8be4beb492b1d4e94824def7d668a3
-      internalID: -1820837895
+      spriteID: 3448bd5599ecbd846abce89305688892
+      internalID: 697989776
       vertices: []
       indices: 
       edges: []
@@ -191,10 +191,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      inimigo side esquerda-Sheet_0: -1665659260
-      inimigo side esquerda-Sheet_1: 5673208
-      inimigo side esquerda-Sheet_2: 866132833
-      inimigo side esquerda-Sheet_3: -1820837895
+      inimigo costas_0: 1616127775
+      inimigo costas_1: -248898610
+      inimigo costas_2: 1182092132
+      inimigo costas_3: 697989776
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

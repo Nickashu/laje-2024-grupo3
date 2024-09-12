@@ -8,15 +8,18 @@ public class EnemyAI : MonoBehaviour
     public GameObject player;
     public UseLantern lantern;
     public bool standBy = false;
+    public float xMovement;
+    public float yMovement;
+    public Animator animator;
 
 
-
-
-    // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
-        
+        animator.SetFloat("Horizontal", 1f - (1f / xMovement));
+        animator.SetFloat("Vertical", (1f / yMovement));
+        animator.SetBool("inMovement", !standBy);
     }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -81,6 +84,10 @@ public class EnemyAI : MonoBehaviour
         if (!standBy)
         {
             Vector2 pointToFollow = player.transform.position;
+
+            xMovement = (new Vector3(pointToFollow.x,pointToFollow.y) - transform.position).x;
+            yMovement = (new Vector3(pointToFollow.x, pointToFollow.y) - transform.position).y;
+
 
             Vector2 rayCastDirection = player.transform.position - transform.position;
             rayCastDirection.Normalize();

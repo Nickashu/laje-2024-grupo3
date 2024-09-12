@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 317423ec5f0326f49b8d9fce732446b9
+guid: 91cb87fe1f0b8e3488b00aff60e9f202
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,12 +97,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "an\xE3o side esquerda_0"
+      name: "an\xE3o walk cycle_0"
       rect:
         serializedVersion: 2
-        x: 19
-        y: 6
-        width: 31
+        x: 11
+        y: 5
+        width: 42
         height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -111,40 +111,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01cfa10057733df4bba6fc30ea498f45
-      internalID: -2017483972
+      spriteID: 5f57def1a91ef09459d611409bd12ace
+      internalID: 1017944459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "an\xE3o side esquerda_1"
+      name: "an\xE3o walk cycle_1"
       rect:
         serializedVersion: 2
-        x: 83
+        x: 74
         y: 6
-        width: 31
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e638c639d1d9434e8d9c83088a2d507
-      internalID: -345870745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "an\xE3o side esquerda_2"
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 6
-        width: 31
+        width: 44
         height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -153,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6442d081b12fee34d9ee86fe33593082
-      internalID: -1235191505
+      spriteID: 3b066ca0622a6aa449b6bf6b4edb9e54
+      internalID: -1167541583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "an\xE3o side esquerda_3"
+      name: "an\xE3o walk cycle_2"
       rect:
         serializedVersion: 2
-        x: 208
-        y: 6
-        width: 34
-        height: 48
+        x: 139
+        y: 5
+        width: 42
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,8 +153,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a068bc8bee4882844b4864cd9fa1c8ff
-      internalID: -2097601327
+      spriteID: c6d324be92eb28b4299b6331dc695d3f
+      internalID: -517971670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "an\xE3o walk cycle_3"
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 6
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11faeb95ab1c02648b7f7c9d7c932959
+      internalID: -71256608
       vertices: []
       indices: 
       edges: []
@@ -191,10 +191,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "an\xE3o side esquerda_0": -2017483972
-      "an\xE3o side esquerda_1": -345870745
-      "an\xE3o side esquerda_2": -1235191505
-      "an\xE3o side esquerda_3": -2097601327
+      "an\xE3o walk cycle_0": 1017944459
+      "an\xE3o walk cycle_1": -1167541583
+      "an\xE3o walk cycle_2": -517971670
+      "an\xE3o walk cycle_3": -71256608
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

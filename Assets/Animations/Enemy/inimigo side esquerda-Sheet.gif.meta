@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 91cb87fe1f0b8e3488b00aff60e9f202
+guid: b0f720ed27e996b44bf58e95b2d8d802
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "an\xE3o walk cycle_0"
+      name: inimigo side esquerda-Sheet_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 5
-        width: 42
-        height: 49
+        x: 17
+        y: 9
+        width: 27
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f57def1a91ef09459d611409bd12ace
-      internalID: 1017944459
+      spriteID: 73d2d19e72edcef42b8e1f8a2fc0799b
+      internalID: -1665659260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "an\xE3o walk cycle_1"
+      name: inimigo side esquerda-Sheet_1
       rect:
         serializedVersion: 2
-        x: 74
-        y: 6
-        width: 44
-        height: 49
+        x: 82
+        y: 9
+        width: 26
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b066ca0622a6aa449b6bf6b4edb9e54
-      internalID: -1167541583
+      spriteID: 898d7cbbcdfb11d469e5da6726e18f54
+      internalID: 5673208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "an\xE3o walk cycle_2"
+      name: inimigo side esquerda-Sheet_2
       rect:
         serializedVersion: 2
-        x: 139
-        y: 5
-        width: 42
-        height: 49
+        x: 145
+        y: 9
+        width: 27
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6d324be92eb28b4299b6331dc695d3f
-      internalID: -517971670
+      spriteID: 3d5bd0c2c2217ea439c3b685db3e077a
+      internalID: 866132833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "an\xE3o walk cycle_3"
+      name: inimigo side esquerda-Sheet_3
       rect:
         serializedVersion: 2
-        x: 202
-        y: 6
-        width: 44
-        height: 49
+        x: 211
+        y: 9
+        width: 25
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11faeb95ab1c02648b7f7c9d7c932959
-      internalID: -71256608
+      spriteID: 7b8be4beb492b1d4e94824def7d668a3
+      internalID: -1820837895
       vertices: []
       indices: 
       edges: []
@@ -191,10 +191,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "an\xE3o walk cycle_0": 1017944459
-      "an\xE3o walk cycle_1": -1167541583
-      "an\xE3o walk cycle_2": -517971670
-      "an\xE3o walk cycle_3": -71256608
+      inimigo side esquerda-Sheet_0: -1665659260
+      inimigo side esquerda-Sheet_1: 5673208
+      inimigo side esquerda-Sheet_2: 866132833
+      inimigo side esquerda-Sheet_3: -1820837895
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

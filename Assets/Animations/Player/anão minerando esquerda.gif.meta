@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: da8347b173bd12e419b99d4e4cc5bbf0
+guid: 8605492e1fa1d1b4cbd46d272d6a140c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: inimigo costas_0
+      name: "an\xE3o minerando esquerda_0"
       rect:
         serializedVersion: 2
-        x: 15
-        y: 8
-        width: 33
-        height: 53
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcbeb73e54afcce46b19a38c7cea922c
-      internalID: 1616127775
+      spriteID: a3eb733bf39bc3942999d5286f2d7c43
+      internalID: 969488969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo costas_1
+      name: "an\xE3o minerando esquerda_1"
       rect:
         serializedVersion: 2
-        x: 79
-        y: 9
-        width: 34
-        height: 54
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c94280d8c3649874dbbf05d8704b5f6d
-      internalID: -248898610
+      spriteID: ccf1b0a6ef00f924f9623904239905d2
+      internalID: 789769939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo costas_2
+      name: "an\xE3o minerando esquerda_2"
       rect:
         serializedVersion: 2
-        x: 144
-        y: 8
-        width: 33
-        height: 53
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1192692f973a9c643b96347efda578e5
-      internalID: 1182092132
+      spriteID: ad5f822c130d0794594f9ac08f96de56
+      internalID: 611361618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo costas_3
+      name: "an\xE3o minerando esquerda_3"
       rect:
         serializedVersion: 2
-        x: 207
-        y: 9
-        width: 34
-        height: 54
+        x: 384
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,8 +174,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3448bd5599ecbd846abce89305688892
-      internalID: 697989776
+      spriteID: 8d59c418ca3c81041a4f414244bd1f4d
+      internalID: -2122060187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "an\xE3o minerando esquerda_4"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab6d21c26610074a9ae63c892b2cc63
+      internalID: 1744279813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "an\xE3o minerando esquerda_5"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06062657ab554a459ec3fe9c9bc8d92
+      internalID: -1587108482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "an\xE3o minerando esquerda_6"
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3cd9d75a3f58c4d83b3e76bb8d8b48
+      internalID: 692753176
       vertices: []
       indices: 
       edges: []
@@ -191,10 +254,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      inimigo costas_0: 1616127775
-      inimigo costas_1: -248898610
-      inimigo costas_2: 1182092132
-      inimigo costas_3: 697989776
+      "an\xE3o minerando esquerda_0": 969488969
+      "an\xE3o minerando esquerda_1": 789769939
+      "an\xE3o minerando esquerda_2": 611361618
+      "an\xE3o minerando esquerda_3": -2122060187
+      "an\xE3o minerando esquerda_4": 1744279813
+      "an\xE3o minerando esquerda_5": -1587108482
+      "an\xE3o minerando esquerda_6": 692753176
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

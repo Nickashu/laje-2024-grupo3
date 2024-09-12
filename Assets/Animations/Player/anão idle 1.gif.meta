@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 68d27d34cc039894bb9fb412fd6d9e22
+guid: dcdd542d2def2d648a4425c079a18643
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: inimigo side direita walk 64b-Sheet 1_0
+      name: "an\xE3o idle 1_0"
       rect:
         serializedVersion: 2
-        x: 20
-        y: 9
-        width: 25
-        height: 52
+        x: 10
+        y: 6
+        width: 44
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db1bfab741149f74785293cb96749fa9
-      internalID: 2102031551
+      spriteID: 8ac901e3c9824a945b2528ac5cbae976
+      internalID: 289519800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inimigo side direita walk 64b-Sheet 1_1
+      name: "an\xE3o idle 1_1"
       rect:
         serializedVersion: 2
-        x: 84
-        y: 9
-        width: 27
-        height: 51
+        x: 74
+        y: 6
+        width: 44
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,50 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a137ea56e566c294f824a672c40e2ff9
-      internalID: 927321659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inimigo side direita walk 64b-Sheet 1_2
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 9
-        width: 26
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf2824094ace7454690943663b6c29dc
-      internalID: -1990809611
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inimigo side direita walk 64b-Sheet 1_3
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 9
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6978d1e197a8a3942a2850a171bb3cb7
-      internalID: 2013694290
+      spriteID: adb9c466cdd524846888a5b316f001db
+      internalID: -1085340591
       vertices: []
       indices: 
       edges: []
@@ -191,10 +149,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      inimigo side direita walk 64b-Sheet 1_0: 2102031551
-      inimigo side direita walk 64b-Sheet 1_1: 927321659
-      inimigo side direita walk 64b-Sheet 1_2: -1990809611
-      inimigo side direita walk 64b-Sheet 1_3: 2013694290
+      "an\xE3o idle 1_0": 289519800
+      "an\xE3o idle 1_1": -1085340591
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
