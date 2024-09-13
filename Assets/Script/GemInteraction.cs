@@ -47,7 +47,7 @@ public class GemInteraction : MonoBehaviour
             else
             {
                 alreadyMined = true;
-                playersGemCount.gemCount += 1;
+                playersGemCount.gemCount ++;
                 gemSprite.sprite = unburried;
             }
         }
