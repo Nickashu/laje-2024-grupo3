@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -44,6 +45,7 @@ public class PlayerHealth : MonoBehaviour
             {
                 CanvaUI.enabled = false;
                 CanvaMorte.enabled = true;
+                Invoke("Death", 2);
             }
         }
     }
@@ -59,6 +61,10 @@ public class PlayerHealth : MonoBehaviour
             playerView.enabled=true;
     }
 
+    void Death()
+    {
+        SceneManager.LoadScene(1);
+    }
 
     void RestoreHealth()
     {
