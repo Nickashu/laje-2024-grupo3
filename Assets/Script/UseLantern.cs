@@ -13,7 +13,7 @@ public class UseLantern : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerLight.pointLightOuterRadius = 2.5f;
+        playerLight.pointLightOuterRadius = 2f;
     }
 
     // Update is called once per frame
@@ -22,7 +22,7 @@ public class UseLantern : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isLanternActive && !inUse && !inCoolDown)
         {
             inUse = true;
-            playerLight.pointLightOuterRadius = 7.5f;
+            playerLight.pointLightOuterRadius = 4.5f;
             Invoke("TurnOfLantern", 3);
             Invoke("CoolDown", 5);
         }
@@ -30,7 +30,7 @@ public class UseLantern : MonoBehaviour
 
     void TurnOfLantern()
     {
-        playerLight.pointLightOuterRadius = 2.5f;
+        playerLight.pointLightOuterRadius = 2f;
         inCoolDown = true;
         inUse = false;
     }

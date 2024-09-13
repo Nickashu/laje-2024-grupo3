@@ -1,12 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class GemCount : MonoBehaviour
+public class Credits : MonoBehaviour
 {
-    public TextMeshProUGUI Counting;
-    public int gemCount;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +14,10 @@ public class GemCount : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Counting.text = "x " + gemCount;
+        if (Input.anyKeyDown)
+        {
+            SceneManager.LoadScene(0);
+        }
+
     }
 }

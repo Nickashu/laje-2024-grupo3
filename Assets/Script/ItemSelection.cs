@@ -5,18 +5,24 @@ using UnityEngine.UI;
 
 public class ItemSelection : MonoBehaviour
 {
+    public Sprite gizmoNormal;
+    public Sprite gizmoLantern;
+    public Sprite purpleGem;
+    public Sprite smallPurpleGem;
+    public Sprite yellowGem;
+    public Sprite smallYellowGem;
     public Image primaryImage;
     public Image secondaryImage;
-    public Sprite gemDetectorSprite;
-    public Sprite lanternSprite;
+    public Image gizmo;
     public AlphaManager gemDetector;
     public UseLantern lantern;
 
     // Start is called before the first frame update
     void Start()
     {
-        primaryImage.sprite = gemDetectorSprite;
-        secondaryImage.sprite = lanternSprite;
+        primaryImage.sprite = purpleGem;
+        secondaryImage.sprite = smallYellowGem;
+        gizmo.sprite = gizmoNormal;
         gemDetector.gemActive = true;
         lantern.isLanternActive = false;
     }
@@ -27,18 +33,20 @@ public class ItemSelection : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             gemDetector.gemActive = !gemDetector.gemActive;
-            lantern.isLanternActive = ! lantern.isLanternActive;
+            lantern.isLanternActive = !lantern.isLanternActive;
 
 
-            if (primaryImage.sprite == gemDetectorSprite)
+            if (primaryImage.sprite == purpleGem)
             {
-                primaryImage.sprite = lanternSprite;
-                secondaryImage.sprite = gemDetectorSprite;
+                gizmo.sprite = gizmoLantern;
+                primaryImage.sprite = yellowGem;
+                secondaryImage.sprite = smallPurpleGem;
             }
             else
             {
-                primaryImage.sprite = gemDetectorSprite;
-                secondaryImage.sprite = lanternSprite;
+                gizmo.sprite = gizmoNormal;
+                primaryImage.sprite = purpleGem;
+                secondaryImage.sprite = smallYellowGem;
             }
         }
     }

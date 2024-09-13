@@ -15,8 +15,12 @@ public class AlphaManager : MonoBehaviour
             alpha = 0.05f;
         else
             alpha = 0.05f + (10 - proximity)*0.05f;
+
         if (proximity < 0.5)
+        {
             alpha = 1f;
+        }
+            
 
         if (!gemActive)
             alpha = 1f;

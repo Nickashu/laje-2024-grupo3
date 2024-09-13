@@ -25,8 +25,8 @@ public class GemInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        animator.SetBool("isMining", isMining);
+        if (isInRange)
+            animator.SetBool("isMining", isMining);
         if (isInRange && Input.GetKey(KeyCode.E))
         {
             isMining = true;
@@ -36,7 +36,7 @@ public class GemInteraction : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.E)) 
         {
             isMining = false;
-            miningTimeLeft = 5f;
+            miningTimeLeft = 2f;
         }
         if (isMining && !alreadyMined)
         {
@@ -46,6 +46,7 @@ public class GemInteraction : MonoBehaviour
             }
             else
             {
+                gameObject.tag = "Untagged";
                 alreadyMined = true;
                 playersGemCount.gemCount ++;
                 gemSprite.sprite = unburried;

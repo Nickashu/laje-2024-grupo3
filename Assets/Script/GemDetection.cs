@@ -9,12 +9,13 @@ public class GemDetection : MonoBehaviour
 
     void Start()
     {
-        allObjectWithTag = GameObject.FindGameObjectsWithTag("Gem");
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        allObjectWithTag = GameObject.FindGameObjectsWithTag("Gem");
 
         GameObject nearestObject = allObjectWithTag[0];
         float distanceToNearest = Vector3.Distance(transform.position, nearestObject.transform.position);
